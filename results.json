@@ -1,0 +1,122 @@
+{
+  "wall_seconds": 284.1,
+  "runs": {
+    "moe_top1_aux": {
+      "final_val": 0.3531,
+      "final_dropped_pct": 0.0,
+      "final_load_e0_per_layer": [
+        0.598,
+        0.55
+      ],
+      "final_entropy_bits": 0.328,
+      "n_params": 242880,
+      "active_ffn_per_token": 74688,
+      "seconds": 30.5
+    },
+    "moe_top1_noaux": {
+      "final_val": 0.3436,
+      "final_dropped_pct": 2.5,
+      "final_load_e0_per_layer": [
+        0.755,
+        0.384
+      ],
+      "final_entropy_bits": 0.291,
+      "n_params": 242880,
+      "active_ffn_per_token": 74688,
+      "seconds": 27.9
+    },
+    "moe_top1_aux100x": {
+      "final_val": 0.3533,
+      "final_dropped_pct": 0.0,
+      "final_load_e0_per_layer": [
+        0.485,
+        0.479
+      ],
+      "final_entropy_bits": 0.451,
+      "n_params": 242880,
+      "active_ffn_per_token": 74688,
+      "seconds": 26.0
+    },
+    "moe_top2_aux": {
+      "final_val": 0.3755,
+      "final_dropped_pct": 0.0,
+      "final_load_e0_per_layer": [
+        0.575,
+        0.503
+      ],
+      "final_entropy_bits": 0.381,
+      "n_params": 242880,
+      "active_ffn_per_token": 148992,
+      "seconds": 26.5
+    },
+    "dense": {
+      "final_val": 0.412,
+      "final_dropped_pct": 0.0,
+      "final_load_e0_per_layer": null,
+      "final_entropy_bits": null,
+      "n_params": 168192,
+      "active_ffn_per_token": 74304,
+      "seconds": 21.9
+    },
+    "cf025": {
+      "final_val": 0.7395,
+      "final_dropped_pct": 75.0,
+      "final_load_e0_per_layer": [
+        0.469,
+        0.472
+      ],
+      "final_entropy_bits": 0.853,
+      "n_params": 242880,
+      "active_ffn_per_token": 74688,
+      "seconds": 28.1
+    },
+    "cf05": {
+      "final_val": 0.6478,
+      "final_dropped_pct": 50.0,
+      "final_load_e0_per_layer": [
+        0.586,
+        0.536
+      ],
+      "final_entropy_bits": 0.629,
+      "n_params": 242880,
+      "active_ffn_per_token": 74688,
+      "seconds": 28.1
+    },
+    "cf10": {
+      "final_val": 0.4113,
+      "final_dropped_pct": 8.8,
+      "final_load_e0_per_layer": [
+        0.608,
+        0.387
+      ],
+      "final_entropy_bits": 0.362,
+      "n_params": 242880,
+      "active_ffn_per_token": 74688,
+      "seconds": 29.9
+    },
+    "cf20": {
+      "final_val": 0.3575,
+      "final_dropped_pct": 0.0,
+      "final_load_e0_per_layer": [
+        0.617,
+        0.552
+      ],
+      "final_entropy_bits": 0.321,
+      "n_params": 242880,
+      "active_ffn_per_token": 74688,
+      "seconds": 32.8
+    },
+    "collapse_forced": {
+      "final_val": 0.3968,
+      "final_dropped_pct": 0.0,
+      "final_load_e0_per_layer": [
+        1.0,
+        1.0
+      ],
+      "final_entropy_bits": 0.011,
+      "n_params": 242880,
+      "active_ffn_per_token": 74688,
+      "seconds": 30.0
+    }
+  }
+}
